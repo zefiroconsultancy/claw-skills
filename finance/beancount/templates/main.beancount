@@ -1,0 +1,18 @@
+;; -*- mode: beancount; -*-
+;; Main ledger entry point
+
+option "title" "Personal Ledger"
+option "operating_currency" "EUR"
+
+;; Plugins
+plugin "beancount.plugins.auto_accounts"
+
+;; Includes
+include "commodities.beancount"
+include "accounts.beancount"
+include "prices.beancount"
+
+;; Include transaction files per year/month as needed:
+;; include "2026/2026-01.beancount"
+;; include "2026/2026-02.beancount"
+;; include "2026/2026-03.beancount"

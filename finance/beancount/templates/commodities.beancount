@@ -1,0 +1,16 @@
+;; Commodity declarations
+
+1900-01-01 commodity EUR
+  name: "Euro"
+
+1900-01-01 commodity USD
+  name: "US Dollar"
+
+1900-01-01 commodity GBP
+  name: "British Pound"
+
+1900-01-01 commodity BTC
+  name: "Bitcoin"
+
+1900-01-01 commodity ETH
+  name: "Ethereum"

@@ -1,0 +1,38 @@
+;; Account open/close directives
+;; Add accounts here as needed. Date should be when the account was opened.
+
+;; Equity
+2020-01-01 open Equity:Opening-Balances
+
+;; Assets — Banking
+;; 2024-01-01 open Assets:Bank:Example:Checking  EUR
+
+;; Assets — Investments
+;; 2024-01-01 open Assets:Broker:Example
+
+;; Assets — Crypto
+;; 2024-01-01 open Assets:Crypto:Example:BTC
+
+;; Assets — Cash
+;; 2024-01-01 open Assets:Cash:EUR
+
+;; Liabilities
+;; 2024-01-01 open Liabilities:CreditCard:Example  EUR
+
+;; Income
+;; 2024-01-01 open Income:Salary:Employer
+;; 2024-01-01 open Income:Interest
+;; 2024-01-01 open Income:Dividends
+;; 2024-01-01 open Income:CapitalGains
+
+;; Expenses — uncomment and customize as needed
+;; 2024-01-01 open Expenses:Food:Groceries
+;; 2024-01-01 open Expenses:Food:Restaurants
+;; 2024-01-01 open Expenses:Housing:Rent
+;; 2024-01-01 open Expenses:Housing:Utilities
+;; 2024-01-01 open Expenses:Transport:Public
+;; 2024-01-01 open Expenses:Health:Insurance
+;; 2024-01-01 open Expenses:Entertainment:Subscriptions
+;; 2024-01-01 open Expenses:Financial:Fees
+;; 2024-01-01 open Expenses:Taxes:Income
+;; 2024-01-01 open Expenses:Misc
